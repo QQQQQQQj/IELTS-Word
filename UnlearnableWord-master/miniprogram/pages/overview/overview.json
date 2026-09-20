@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mpProgress": "../../components/mp-progress/mp-progress",
+    "ec-canvas": "../../components/ec-canvas/ec-canvas"
+  }
+}

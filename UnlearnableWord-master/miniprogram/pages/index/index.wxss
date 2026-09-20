@@ -1,0 +1,218 @@
+.bgWrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -100;
+  background-image: linear-gradient(to bottom, #86e3ce, #FFFFFF);
+}
+.bgWrapper .bg {
+  margin-left: -15%;
+  margin-top: -15%;
+  width: 130%;
+  height: 130%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.searchBtn {
+  position: absolute;
+  top: 35rpx;
+  right: 45rpx;
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 34rpx;
+  border: solid 4rpx #70ac9e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  background: rgba(144, 194, 182, 0.2);
+}
+.searchBtn .searchIcon {
+  font-size: 40rpx;
+  background: transparent;
+  font-weight: 600;
+  color: #70ac9e;
+  border-radius: 50%;
+}
+.swiperContainer {
+  margin-top: 300rpx;
+  width: 100%;
+  height: 500rpx;
+}
+.swiperContainer .dailySentenceWrapper {
+  width: 90%;
+  height: 500rpx;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.swiperContainer .dailySentenceWrapper .content {
+  width: 100%;
+  font-size: 42rpx;
+  font-weight: 800;
+  font-family: 'Microsoft YaHei';
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20rpx;
+}
+.swiperContainer .dailySentenceWrapper .voice {
+  width: 50rpx;
+  height: 50rpx;
+  font-size: 40rpx;
+  line-height: 50rpx;
+  text-align: center;
+  color: #8a8a8a;
+  margin-top: -10rpx;
+  margin-bottom: 10rpx;
+}
+.swiperContainer .dailySentenceWrapper .translation {
+  width: 100%;
+  height: 60rpx;
+  font-size: 32rpx;
+  font-weight: 800;
+  font-family: 'Microsoft YaHei';
+  color: #4A4A4A;
+  text-align: center;
+}
+.btnWrapper {
+  margin-top: 100rpx;
+  width: 100%;
+  height: 140rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnWrapper .loginBtn {
+  width: 50%;
+  height: 100rpx;
+  background-color: #90ced3;
+  color: #FFFFFF;
+  font-size: 40rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  font-weight: 800;
+  box-shadow: 4rpx 4rpx 4rpx #e6e6e6;
+}
+.learnBtnWrapper {
+  position: absolute;
+  bottom: 100rpx;
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.learnBtnWrapper .both {
+  width: 38%;
+  height: 135rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 40rpx;
+  border-radius: 10rpx;
+  box-shadow: 4rpx 4rpx 4rpx #e6e6e6;
+}
+.learnBtnWrapper .both .text {
+  font-size: 42rpx;
+  color: #515151;
+  font-weight: 800;
+}
+.learnBtnWrapper .both .number {
+  font-size: 32rpx;
+  color: #fa995d;
+  font-weight: 700;
+}
+.learnBtnWrapper .forLearn {
+  background-image: linear-gradient(to bottom, #ffc8cb, #FFFFFF);
+  margin-left: 35rpx;
+}
+.learnBtnWrapper .forReview {
+  background-image: linear-gradient(to bottom, #e4d1fe, #FFFFFF);
+  background-image: linear-gradient(to bottom, #87cafe, #FFFFFF);
+  margin-right: 35rpx;
+}
+.wasTaped {
+  opacity: 0.7;
+}
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 1200rpx;
+  z-index: 80;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.changeBookWrapper {
+  width: 750rpx;
+  height: 600rpx;
+  margin-top: 50rpx;
+  position: relative;
+  z-index: 101;
+}
+.changeBookWrapper .book {
+  width: 750rpx;
+  height: 160rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10rpx;
+}
+.changeBookWrapper .book .bookCover {
+  margin-left: 20rpx;
+  margin-right: 40rpx;
+  width: 106rpx;
+  height: 140rpx;
+  background-color: #2586e5;
+  background-color: #6995c2;
+  border-radius: 10rpx;
+}
+.changeBookWrapper .book .bookCover .name {
+  width: 28rpx;
+  height: 100rpx;
+  font-size: 28rpx;
+  color: #ffffff;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  font-weight: 600;
+}
+.changeBookWrapper .book .info {
+  width: 70%;
+  height: 160rpx;
+  position: relative;
+  font-weight: 600;
+}
+.changeBookWrapper .book .info .bookName {
+  color: #757575;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+  font-weight: 700;
+}
+.changeBookWrapper .book .info .des {
+  margin-top: 10rpx;
+  font-size: 22rpx;
+  color: #8a8a8a;
+}
+.changeBookWrapper .book .info .total {
+  position: absolute;
+  bottom: 10rpx;
+  font-size: 22rpx;
+  color: #8a8a8a;
+}
+.changeBookWrapper .book .info .total .num {
+  font-size: 26rpx;
+}
+.changeBookWrapper .wasTaped {
+  opacity: 1;
+  background-color: rgba(150, 150, 150, 0.1);
+}

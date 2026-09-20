@@ -1,0 +1,6627 @@
+{
+  "schemaVersion": 1,
+  "status": "pass",
+  "blockingErrorCount": 0,
+  "warningCount": 44,
+  "totals": {
+    "sourceRows": 4494,
+    "finalEntries": 4494,
+    "emptyWords": 0,
+    "emptyMeanings": 0
+  },
+  "books": {
+    "ielts-toefl-basic": {
+      "entryCount": 1997,
+      "uniqueNormalizedWords": 1996,
+      "duplicateKeys": 1,
+      "duplicateExtra": 1,
+      "emptyWords": 0,
+      "emptyMeanings": 0,
+      "emptyPartOfSpeech": 0,
+      "noteCount": 0,
+      "sourceGroupCounts": {
+        "Day 1": 100,
+        "Day 10": 100,
+        "Day 11": 99,
+        "Day 12": 100,
+        "Day 13": 100,
+        "Day 14": 100,
+        "Day 15": 100,
+        "Day 16": 99,
+        "Day 17": 100,
+        "Day 18": 100,
+        "Day 19": 100,
+        "Day 2": 100,
+        "Day 20": 100,
+        "Day 3": 100,
+        "Day 4": 99,
+        "Day 5": 100,
+        "Day 6": 100,
+        "Day 7": 100,
+        "Day 8": 100,
+        "Day 9": 100
+      },
+      "repairedPhonetic": 24,
+      "invalidPhonetic": 16,
+      "suspectPhonetic": 2
+    },
+    "ielts-listening-spelling": {
+      "entryCount": 2497,
+      "uniqueNormalizedWords": 2465,
+      "duplicateKeys": 31,
+      "duplicateExtra": 32,
+      "emptyWords": 0,
+      "emptyMeanings": 0,
+      "emptyPartOfSpeech": 43,
+      "noteCount": 133,
+      "sourceGroupCounts": {
+        "main": 1937,
+        "supplement": 560
+      },
+      "repairedPhonetic": 0,
+      "invalidPhonetic": 0,
+      "suspectPhonetic": 0
+    }
+  },
+  "crossBook": {
+    "normalizedOverlap": 754,
+    "taggedBasicRows": 754,
+    "taggedListeningRows": 762
+  },
+  "checks": {
+    "schema_type": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "identity_and_order": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "expected_counts": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "missing_source_group": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "empty_word": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "empty_meaning": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "header_or_page_number": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "whitespace": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "unicode_normalization": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "case_anomaly": {
+      "severity": "warning",
+      "count": 12,
+      "detected": 12,
+      "fixed": 0,
+      "remaining": 12,
+      "items": [
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-0004",
+          "word": "Accommodation",
+          "normalizedWord": "accommodation"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2027",
+          "word": "Comparative",
+          "normalizedWord": "comparative"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2091",
+          "word": "Empathy",
+          "normalizedWord": "empathy"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2094",
+          "word": "Enclosure",
+          "normalizedWord": "enclosure"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2131",
+          "word": "Font",
+          "normalizedWord": "font"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2155",
+          "word": "Hazel",
+          "normalizedWord": "hazel"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2227",
+          "word": "Malaria",
+          "normalizedWord": "malaria"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2250",
+          "word": "Morale",
+          "normalizedWord": "morale"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2396",
+          "word": "Slavery",
+          "normalizedWord": "slavery"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2427",
+          "word": "Subtopic",
+          "normalizedWord": "subtopic"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2468",
+          "word": "Vacate",
+          "normalizedWord": "vacate"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2479",
+          "word": "Ventilation",
+          "normalizedWord": "ventilation"
+        }
+      ],
+      "samples": [
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-0004",
+          "word": "Accommodation",
+          "normalizedWord": "accommodation"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2027",
+          "word": "Comparative",
+          "normalizedWord": "comparative"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2091",
+          "word": "Empathy",
+          "normalizedWord": "empathy"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2094",
+          "word": "Enclosure",
+          "normalizedWord": "enclosure"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2131",
+          "word": "Font",
+          "normalizedWord": "font"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2155",
+          "word": "Hazel",
+          "normalizedWord": "hazel"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2227",
+          "word": "Malaria",
+          "normalizedWord": "malaria"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2250",
+          "word": "Morale",
+          "normalizedWord": "morale"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2396",
+          "word": "Slavery",
+          "normalizedWord": "slavery"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2427",
+          "word": "Subtopic",
+          "normalizedWord": "subtopic"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2468",
+          "word": "Vacate",
+          "normalizedWord": "vacate"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "suspected unjustified uppercase kept from the source",
+          "id": "ielts-listening-spelling-2479",
+          "word": "Ventilation",
+          "normalizedWord": "ventilation"
+        }
+      ],
+      "sourceUppercaseCount": 87,
+      "acceptedProperOrAcronymCount": 75
+    },
+    "broken_word_or_line": {
+      "severity": "warning",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "phonetic_misalignment": {
+      "severity": "blocking",
+      "count": 40,
+      "detected": 40,
+      "fixed": 40,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "part_of_speech_misalignment": {
+      "severity": "warning",
+      "count": 16,
+      "detected": 16,
+      "fixed": 16,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "note_split": {
+      "severity": "warning",
+      "count": 16,
+      "detected": 16,
+      "fixed": 0,
+      "remaining": 16,
+      "items": [
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0185",
+          "word": "build",
+          "value": "building建造/built造好的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0231",
+          "word": "cater",
+          "value": "cater for招待"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0305",
+          "word": "collect",
+          "value": "collecting收集"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0800",
+          "word": "help",
+          "value": "helping帮助的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0805",
+          "word": "high",
+          "value": "higher更高的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0942",
+          "word": "learn",
+          "value": "learning学习"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-1534",
+          "word": "shade",
+          "value": "shaded有阴影的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-1567",
+          "word": "sing",
+          "value": "singing唱歌"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-1871",
+          "word": "warm",
+          "value": "warming温暖的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-1875",
+          "word": "water",
+          "value": "watering浇水"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2030",
+          "word": "computerize",
+          "value": "computerized 计算机化的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2154",
+          "word": "harvest",
+          "value": "harvested 丰收了的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2276",
+          "word": "operate",
+          "value": "operated 操作完成的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2308",
+          "word": "polish",
+          "value": "polished 抛光的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2311",
+          "word": "post office",
+          "value": "post office 邮局"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2340",
+          "word": "recreation",
+          "value": "recreational 娱乐性的"
+        }
+      ],
+      "samples": [
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0185",
+          "word": "build",
+          "value": "building建造/built造好的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0231",
+          "word": "cater",
+          "value": "cater for招待"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0305",
+          "word": "collect",
+          "value": "collecting收集"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0800",
+          "word": "help",
+          "value": "helping帮助的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0805",
+          "word": "high",
+          "value": "higher更高的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-0942",
+          "word": "learn",
+          "value": "learning学习"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-1534",
+          "word": "shade",
+          "value": "shaded有阴影的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-1567",
+          "word": "sing",
+          "value": "singing唱歌"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-1871",
+          "word": "warm",
+          "value": "warming温暖的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-1875",
+          "word": "water",
+          "value": "watering浇水"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2030",
+          "word": "computerize",
+          "value": "computerized 计算机化的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2154",
+          "word": "harvest",
+          "value": "harvested 丰收了的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2276",
+          "word": "operate",
+          "value": "operated 操作完成的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2308",
+          "word": "polish",
+          "value": "polished 抛光的"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2311",
+          "word": "post office",
+          "value": "post office 邮局"
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "note may duplicate a word/meaning cell",
+          "id": "ielts-listening-spelling-2340",
+          "word": "recreation",
+          "value": "recreational 娱乐性的"
+        }
+      ]
+    },
+    "overlong_text": {
+      "severity": "warning",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "suspected_garbled_text": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "row_boundary_leakage": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "duplicate_within_book": {
+      "severity": "info",
+      "count": 33,
+      "detected": 33,
+      "fixed": 0,
+      "remaining": 33,
+      "items": [
+        {
+          "bookId": "ielts-toefl-basic",
+          "normalizedWord": "altitude",
+          "rowCount": 2,
+          "ids": [
+            "ielts-toefl-basic-1027",
+            "ielts-toefl-basic-1788"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "butler",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0188",
+            "ielts-listening-spelling-0193"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "chick",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-2011",
+            "ielts-listening-spelling-2012"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "clean",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0281",
+            "ielts-listening-spelling-2018"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "contact",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0345",
+            "ielts-listening-spelling-2038"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "flat",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0657",
+            "ielts-listening-spelling-2122"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "flu",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0666",
+            "ielts-listening-spelling-2127"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "fountain",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0680",
+            "ielts-listening-spelling-2133"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "frog",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0695",
+            "ielts-listening-spelling-2138"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "game",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0710",
+            "ielts-listening-spelling-2141"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "harvest",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0781",
+            "ielts-listening-spelling-2154"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "immune",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0840",
+            "ielts-listening-spelling-2172"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "iron",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-2193",
+            "ielts-listening-spelling-2194"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "keyboard",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0908",
+            "ielts-listening-spelling-2200"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "lead",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0935",
+            "ielts-listening-spelling-2210"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "lost",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0988",
+            "ielts-listening-spelling-2224"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "manufacture",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1013",
+            "ielts-listening-spelling-2230"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "mat",
+          "rowCount": 3,
+          "ids": [
+            "ielts-listening-spelling-1025",
+            "ielts-listening-spelling-2234",
+            "ielts-listening-spelling-2235"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "monitor",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1090",
+            "ielts-listening-spelling-2248"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "mould",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1101",
+            "ielts-listening-spelling-2252"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "nut",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1155",
+            "ielts-listening-spelling-2264"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "pest",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1230",
+            "ielts-listening-spelling-2299"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "process",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1323",
+            "ielts-listening-spelling-2319"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "rack",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-2328",
+            "ielts-listening-spelling-2329"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "rat",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1370",
+            "ielts-listening-spelling-2334"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "reading",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1375",
+            "ielts-listening-spelling-2335"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "season",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1504",
+            "ielts-listening-spelling-2375"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "ship",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1547",
+            "ielts-listening-spelling-2383"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "smooth",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1586",
+            "ielts-listening-spelling-2399"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "spring",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1622",
+            "ielts-listening-spelling-2412"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "strain",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1656",
+            "ielts-listening-spelling-2420"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "textile",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1736",
+            "ielts-listening-spelling-2447"
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "bookId": "ielts-toefl-basic",
+          "normalizedWord": "altitude",
+          "rowCount": 2,
+          "ids": [
+            "ielts-toefl-basic-1027",
+            "ielts-toefl-basic-1788"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "butler",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0188",
+            "ielts-listening-spelling-0193"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "chick",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-2011",
+            "ielts-listening-spelling-2012"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "clean",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0281",
+            "ielts-listening-spelling-2018"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "contact",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0345",
+            "ielts-listening-spelling-2038"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "flat",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0657",
+            "ielts-listening-spelling-2122"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "flu",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0666",
+            "ielts-listening-spelling-2127"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "fountain",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0680",
+            "ielts-listening-spelling-2133"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "frog",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0695",
+            "ielts-listening-spelling-2138"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "game",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0710",
+            "ielts-listening-spelling-2141"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "harvest",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0781",
+            "ielts-listening-spelling-2154"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "immune",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0840",
+            "ielts-listening-spelling-2172"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "iron",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-2193",
+            "ielts-listening-spelling-2194"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "keyboard",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0908",
+            "ielts-listening-spelling-2200"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "lead",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0935",
+            "ielts-listening-spelling-2210"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "lost",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-0988",
+            "ielts-listening-spelling-2224"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "manufacture",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1013",
+            "ielts-listening-spelling-2230"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "mat",
+          "rowCount": 3,
+          "ids": [
+            "ielts-listening-spelling-1025",
+            "ielts-listening-spelling-2234",
+            "ielts-listening-spelling-2235"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "monitor",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1090",
+            "ielts-listening-spelling-2248"
+          ]
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "normalizedWord": "mould",
+          "rowCount": 2,
+          "ids": [
+            "ielts-listening-spelling-1101",
+            "ielts-listening-spelling-2252"
+          ]
+        }
+      ],
+      "duplicateKeyCount": 32,
+      "duplicateExtraCount": 33
+    },
+    "duplicate_across_books": {
+      "severity": "info",
+      "count": 754,
+      "detected": 754,
+      "fixed": 0,
+      "remaining": 754,
+      "items": [
+        {
+          "normalizedWord": "ability",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "absence",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "abstract",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "academic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accent",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accept",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "access",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accident",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accommodation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "account",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accountant",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accuracy",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "achievement",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "action",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "active",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "activity",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "administration",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "admission",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "adopt",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "advance",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "adventure",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "advertise",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "advertisement",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "affect",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "against",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "agency",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "agent",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "agreement",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "agricultural",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "agriculture",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "aid",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "aim",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "airline",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "alarm",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "allergic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "allowance",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "alternative",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "ambulance",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "analysis",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "ancestor",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "angle",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "ankle",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "annual",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "antique",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "apartment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "apology",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "appearance",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "application",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "apply",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "appointment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "approach",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "approximately",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "argument",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "arm",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "arrangement",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "arrow",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "assess",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "assessment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "assistant",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "assumption",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "attack",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "attention",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "attitude",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "audience",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "authority",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "automatic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "available",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "avenue",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "avoid",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "background",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "bakery",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "balance",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "balcony",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "balloon",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "ban",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "bank",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "bar",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "barber",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "bargain",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "barrier",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "basic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "battery",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "beach",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "bear",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "begin",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "behave",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "believe",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "benefit",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "blanket",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "block",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "board",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "boil",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "bone",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "bonus",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "booth",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "boring",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "brake",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "branch",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "break",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "breathe",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "bright",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "brush",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "budget",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "butterfly",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "calculate",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "calm",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "camp",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "cancel",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "capital",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "cash",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "category",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "cater",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "cause",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "cell",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "ceremony",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "certificate",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "chain",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "challenge",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "change",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "character",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "chat",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "check",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "cheese",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "choose",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "church",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "circle",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "classical",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "claw",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "climate",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "clinic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "collect",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "comfortable",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "comment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "commercial",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "commitment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "communication",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "compete",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "competition",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "complete",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "complex",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "comprehension",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "compulsory",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "concrete",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "condition",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "conference",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "confident",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "confidential",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "confirm",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "connect",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "conservation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "consistent",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "constant",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "content",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "continent",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "control",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "convenience",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "conversation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "cook",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "cooker",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "correction",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "count",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "court",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "create",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "creature",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "credit",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "cross",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "crowded",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "curtain",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "dam",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "damage",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "darkness",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "data",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "database",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "date",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "daylight",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "deadline",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "decade",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "decision",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "decline",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "decoration",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "decrease",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "degree",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "delay",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "delicate",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "demand",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "dentist",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "department",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "deposit",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "depth",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "description",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "desert",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "design",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "destroy",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "develop",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "dictation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "dictionary",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "diet",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "digital",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "diploma",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "direct",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "direction",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "director",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "directory",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "disability",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "disabled",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "disappoint",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "discount",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "discussion",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "dismiss",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "distance",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "distribute",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "disturbing",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "divorce",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "document",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "double",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "draft",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "dream",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "drill",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "drink",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "drug",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "ecology",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "edge",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "editor",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "education",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "effect",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "effort",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "electric",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "electrical",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "electricity",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "electronic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "embassy",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "emergency",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "end",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "energy",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "engine",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "engineer",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "enjoyable",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "entertainment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "entire",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "entrance",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "entry",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "environment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "equal",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "equipment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "error",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "escape",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "essay",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "evidence",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "evolution",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "excellent",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "exchange",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "exercise",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "exhibition",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "expand",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "expectation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "expense",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "experience",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "experiment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "explain",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "explanation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "explode",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "express",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "extra",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "eyesight",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fair",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fall",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fan",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fault",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "feed",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "female",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fence",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "festival",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fight",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "finance",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "firework",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fix",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "flag",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "flexible",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "flight",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "flood",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "flow",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fluent",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "focus",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fold",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "folk",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "form",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "format",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fountain",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fragile",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "framework",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "free",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fresh",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "friction",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fridge",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "friendly",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "front",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "fuel",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "function",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "furniture",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "gallery",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "garage",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "garbage",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "general",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "generation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "gold",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "golden",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "graduate",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "graduation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "grain",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "grand",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "graph",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "gravity",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "grey",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "ground",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "guard",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "guide",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "habit",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "hand",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "handle",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "harmful",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "harvest",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "head",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "healthy",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "height",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "helicopter",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "heroine",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "high",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "highway",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "hire",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "hook",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "hunger",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "hurt",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "identification",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "identity",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "illegal",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "illness",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "immigration",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "import",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "important",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "impossible",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "income",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "incorrect",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "increase",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "independence",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "influence",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "information",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "injury",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "insect",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "instruction",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "instrument",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "insurance",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "intelligence",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "international",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "internet",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "interview",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "introduction",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "invent",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "invitation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "iron",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "irrigation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "jam",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "journalist",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "junior",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "knowledge",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "labour",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "lack",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "ladder",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "lamp",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "laundry",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "lead",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "leak",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "learn",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "leather",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "legal",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "liberty",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "lifetime",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "lift",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "light",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "limit",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "line",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "link",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "liquid",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "list",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "literature",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "live",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "lively",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "living",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "lock",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "lonely",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "lounge",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "magic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "maid",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "manage",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "marble",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "march",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "market",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "marriage",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mask",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mass",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "master",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "material",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "matter",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mature",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "maximum",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "measure",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "media",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "medical",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "medicine",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "meeting",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "memory",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mental",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "menu",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "metal",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "microscope",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "microwave",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mild",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "million",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mine",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mineral",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "minibus",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "minimum",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "miss",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mistake",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mix",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mixture",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mobile",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "model",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "modern",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "monitor",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "monument",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "motivation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mountain",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mud",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "mushroom",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "national",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "nationality",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "native",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "natural",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "nature",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "necklace",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "nest",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "net",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "network",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "novelist",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "nurse",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "nutrition",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "object",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "observe",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "occupation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "offer",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "opera",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "operate",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "optional",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "oral",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "order",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "organization",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "origin",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "outcome",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "outline",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "oxygen",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "pack",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "package",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "painter",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "paragraph",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "parcel",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "park",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "part",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "part-time",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "partner",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "passage",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "passive",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "passport",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "patient",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "pattern",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "perfume",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "permanent",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "permit",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "personal",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "persuade",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "petrol",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "physical",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "picnic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "pill",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "pink",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "plastic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "platform",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "playground",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "playroom",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "pleasure",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "policy",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "polish",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "political",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "pollute",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "pollution",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "population",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "portable",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "position",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "post",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "postcard",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "poster",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "powder",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "power",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "practical",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "predict",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "prefer",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "preparation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "prepare",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "present",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "presentation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "preserve",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "press",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "primary",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "print",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "printing",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "private",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "prize",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "procedure",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "process",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "produce",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "product",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "production",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "profession",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "profit",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "progress",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "psychology",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "publish",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "pump",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "purchase",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "pure",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "purple",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "purpose",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "qualification",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "quality",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "quarter",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "questionnaire",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "race",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "railway",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "rainbow",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "rainfall",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "random",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "range",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "rare",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "rate",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "raw",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reading",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reasonable",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "receiver",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reception",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "receptionist",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "record",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "recreation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reduce",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "referee",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reference",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reflect",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "refreshment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "regard",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "register",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "regular",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "regulation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "relationship",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "relative",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "relax",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "relevant",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reliable",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "religion",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "remove",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "report",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "representative",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reputation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "request",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "rescue",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "research",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reservation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reserve",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "respect",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "responsibility",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "restriction",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "review",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "revision",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "revolution",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "reward",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "ripe",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "risk",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "rock",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "roll",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "root",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "rope",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "round",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "row",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "rubbish",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "rule",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "sailing",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "salad",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "salary",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "satellite",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "satisfaction",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "scarf",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "scenery",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "schedule",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "scholarship",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "science",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "scientific",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "scientist",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "score",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "screen",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "sculpture",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "secretary",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "section",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "security",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "select",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "senior",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "sensitive",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "sentence",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "servant",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "service",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "settle",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "several",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shade",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shallow",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shame",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shape",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "share",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "sharp",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "sheet",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shelf",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shelter",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shoot",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shore",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shoulder",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "show",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shower",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "shuttle",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "sign",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "signal",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "signature",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "silk",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "skyscraper",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "slavery",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "slide",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "smooth",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "software",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "solar",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "solid",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "sort",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "soup",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "souvenir",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "spare",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "spear",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "special",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "specialist",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "spoon",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "spray",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "square",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "staff",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "stage",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "standard",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "starvation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "state",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "statement",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "statistics",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "status",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "stick",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "strength",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "stress",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "string",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "studio",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "subject",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "success",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "suit",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "suitable",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "summary",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "sunlight",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "super",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "supermarket",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "supply",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "support",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "surrounding",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "survival",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "survive",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "sweater",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "symbol",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "talent",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "taste",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "teamwork",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "tear",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "technical",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "technology",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "temporary",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "term",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "theoretical",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "tidy",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "timetable",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "tissue",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "title",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "toast",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "tongue",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "topic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "total",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "tour",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "tourism",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "tourist",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "track",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "trade",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "traditional",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "train",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "training",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "transport",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "trend",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "triangle",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "trust",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "umbrella",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "uncertain",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "uncomfortable",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "underground",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "understand",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "unemployment",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "uniform",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "unimportant",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "university",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "urban",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "useless",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "vacation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "valley",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "variety",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "various",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "version",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "vertical",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "view",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "visual",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "vocabulary",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "wage",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "waitress",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "warehouse",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "waste",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "wax",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "wealth",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "wealthy",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "wear",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "website",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "wedding",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "weed",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "weigh",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "weight",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "welfare",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "wheel",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "wildlife",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "windy",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "withdraw",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "wooden",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "workforce",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "workplace",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "zipper",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "zoom",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "normalizedWord": "ability",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "absence",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "abstract",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "academic",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accent",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accept",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "access",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accident",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accommodation",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "account",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accountant",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "accuracy",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "achievement",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "action",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "active",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "activity",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "administration",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "admission",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "adopt",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        },
+        {
+          "normalizedWord": "advance",
+          "bookIds": [
+            "ielts-toefl-basic",
+            "ielts-listening-spelling"
+          ]
+        }
+      ]
+    },
+    "tag_consistency": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "known_sentinels": {
+      "severity": "blocking",
+      "count": 0,
+      "detected": 0,
+      "fixed": 0,
+      "remaining": 0,
+      "items": [],
+      "samples": []
+    },
+    "known_source_anomalies": {
+      "severity": "info",
+      "count": 104,
+      "detected": 104,
+      "fixed": 56,
+      "remaining": 45,
+      "items": [
+        {
+          "bookId": "ielts-toefl-basic",
+          "message": "cover label 2000 differs from 1997 vector-table rows",
+          "detected": 3,
+          "disposition": "reconciled source fact; not a missing-row defect"
+        },
+        {
+          "bookId": "ielts-toefl-basic",
+          "message": "one-sided IPA boundary repaired",
+          "detected": 24
+        },
+        {
+          "bookId": "ielts-toefl-basic",
+          "message": "invalid phonetic source cell omitted and tagged",
+          "detected": 16
+        },
+        {
+          "bookId": "ielts-toefl-basic",
+          "message": "well-formed copied phonetic retained as suspect",
+          "detected": 2
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "empty source part-of-speech is allowed and reported",
+          "detected": 43
+        },
+        {
+          "bookId": "both",
+          "message": "mechanical POS boundary/punctuation repair applied",
+          "detected": 16
+        }
+      ],
+      "samples": [
+        {
+          "bookId": "ielts-toefl-basic",
+          "message": "cover label 2000 differs from 1997 vector-table rows",
+          "detected": 3,
+          "disposition": "reconciled source fact; not a missing-row defect"
+        },
+        {
+          "bookId": "ielts-toefl-basic",
+          "message": "one-sided IPA boundary repaired",
+          "detected": 24
+        },
+        {
+          "bookId": "ielts-toefl-basic",
+          "message": "invalid phonetic source cell omitted and tagged",
+          "detected": 16
+        },
+        {
+          "bookId": "ielts-toefl-basic",
+          "message": "well-formed copied phonetic retained as suspect",
+          "detected": 2
+        },
+        {
+          "bookId": "ielts-listening-spelling",
+          "message": "empty source part-of-speech is allowed and reported",
+          "detected": 43
+        },
+        {
+          "bookId": "both",
+          "message": "mechanical POS boundary/punctuation repair applied",
+          "detected": 16
+        }
+      ]
+    }
+  }
+}

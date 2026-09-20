@@ -1,0 +1,31 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Cloudflare
+.wrangler/
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+.playwright/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local environment files (keep the example)
+.env
+.env.*
+!.env.example
+
+# Source PDFs must never enter the repository
+*.pdf
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+*.local

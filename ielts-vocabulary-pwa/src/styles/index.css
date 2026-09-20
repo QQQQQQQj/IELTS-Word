@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import "@fontsource-variable/outfit";
+
+@theme {
+  --color-paper: #f5f3ee;
+  --color-card: #ffffff;
+  --color-ink: #272420;
+  --color-ink-soft: #6e6a61;
+  --color-line: #e5e1d8;
+  --color-accent: #2f6d5a;
+  --color-danger: #b2452e;
+  --font-sans: "Outfit Variable", -apple-system, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #191817;
+    --color-card: #23211f;
+    --color-ink: #ece9e3;
+    --color-ink-soft: #a6a29a;
+    --color-line: #38352f;
+    --color-accent: #4f9a82;
+    --color-danger: #d9765f;
+  }
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100dvh;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  padding-top: env(safe-area-inset-top);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

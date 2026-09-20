@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+  },
+  "references": [
+    {
+      "path": "./apps/nuxt/tsconfig.json"
+    },
+    {
+      "path": "./apps/vscode-web/tsconfig.json"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<!--pages/index/index.wxml-->
+<view class="bgWrapper"></view>
+
+<view class="wrapper">
+    <view class="searchBtn" hover-class="wasTaped" data-type="search" bindtap="toOtherPage">
+        <view class="searchIcon iconfont icon-search"></view>
+    </view>
+    <swiper class="swiperContainer" autoplay="{{true}}" interval="{{20000}}" duration="{{500}}" circular="{{true}}"
+        easing-function="easeInOutCubic" bindchange="changeSwiperItem">
+        <swiper-item wx:for="{{dailySentence}}" wx:key="index">
+            <view class="dailySentenceWrapper" data-index="{{index}}" bindtap="playVoice">
+                <view class="content">{{item.content}}</view>
+                <view class="voice iconfont icon-sound" wx:if="{{item.voiceUrl && item.voiceUrl != ''}}">
+                </view>
+                <view class="translation">{{item.translation}}</view>
+            </view>
+        </swiper-item>
+    </swiper>
+
+    <view class="btnWrapper" wx:if="{{!isLogin}}">
+        <view class="loginBtn" data-type="login" bindtap="toOtherPage" hover-class="wasTaped">登录</view>
+    </view>
+
+    <view class="learnBtnWrapper" wx:if="{{isLogin}}">
+        <view class="both forLearn" hover-class="wasTaped" data-type="learning" bindtap="toLearnPage">
+            <view class="text">学习</view>
+            <view class="number">{{needToLearn}}</view>
+        </view>
+        <view class="both forReview" hover-class="wasTaped" data-type="review" bindtap="toLearnPage">
+            <view class="text">复习</view>
+            <view class="number">{{needToReview}}</view>
+        </view>
+    </view>
+</view>
+
+<view class="mask" wx:if="{{isChangingBook}}" bindtap="showTips"></view>
+<page-container show="{{isChangingBook}}" duration="{{500}}" overlay="{{false}}" position="bottom" round="{{true}}"
+    bind:afterleave="endChange" bind:enter="onEnter" z-index="{{100}}">
+    <scroll-view class="changeBookWrapper" scroll-y="{{true}}">
+        <view class="book" wx:for="{{allBkData}}" hover-class ='wasTaped' wx:key="index" data-index="{{index}}" bindtap="changeWordBook">
+            <view class="bookCover">
+                <view class="name">{{item.name}}</view>
+            </view>
+            <view class="info">
+                <view class="bookName">{{item.name}}</view>
+                <view class="des">{{item.description}}</view>
+                <view class="total">词汇量 <text class="num">{{item.total}}</text></view>
+            </view>
+        </view>
+    </scroll-view>
+</page-container>
